@@ -6,11 +6,11 @@
 <br>
 
 <p align="justify">
-<b>Avelune Resort</b> is an exclusive luxury resort platform designed to offer guests an immersive and effortless digital experience. Integrated seamlessly with nature, the platform showcases the resort’s world-class amenities, allowing visitors to explore facilities, discover wellness packages, and experience refined hospitality prior to their stay.
+<b>Avelune Resort</b> is an exclusive luxury resort platform built with <b>Laravel</b>, designed to offer guests an immersive and effortless digital experience. Integrated seamlessly with nature, the platform showcases the resort’s world-class amenities, allowing visitors to explore facilities, discover wellness packages, and experience refined hospitality prior to their stay.
 
 Crafted with a clean, minimalist UI/UX philosophy, Avelune Resort eliminates unnecessary noise, focusing on visual serenity, intuitive navigation, and rich narrative descriptions. Whether guests are seeking a peaceful retreat, fine dining, or holistic wellness, the application serves as a complete digital gateway to the ultimate resort experience.
 
-By combining aesthetic sophistication with modern functional design, Avelune Resort sets a new standard for luxury hospitality platforms.
+By combining aesthetic sophistication with modern functional design and robust backend infrastructure, Avelune Resort sets a new standard for luxury hospitality platforms.
 </p>
 
 ---
@@ -36,10 +36,10 @@ By combining aesthetic sophistication with modern functional design, Avelune Res
 
 <h2>🛠️ Tech Stack</h2>
 
-<h4>🎨 Design     : Figma</h4>
-<h4>💻 Front-End : HTML5, CSS3, JavaScript</h4>
-<h4>🛢️ Back-End  : PHP</h4>
-<h4>🐬 Database  : MySQL</h4>
+<h4>🎨 Design    : Figma</h4>
+<h4>💻 Front-End : HTML5, CSS3, JavaScript, Blade</h4>
+<h4>⚡ Framework : Laravel</h4>
+<h4>🛢️ Database  : MySQL</h4>
 
 ---
 
