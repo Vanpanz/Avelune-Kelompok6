@@ -1,58 +1,51 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<h1 align="center">🌳 Avelune Resort</h1>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<h2>Introduction</h2>
+<i>A Sanctuary of Tranquility, Luxury, and Timeless Elegance.</i>
+
+<br>
+
+<p align="justify">
+<b>Avelune Resort</b> is an exclusive luxury resort platform designed to offer guests an immersive and effortless digital experience. Integrated seamlessly with nature, the platform showcases the resort’s world-class amenities, allowing visitors to explore facilities, discover wellness packages, and experience refined hospitality prior to their stay.
+
+Crafted with a clean, minimalist UI/UX philosophy, Avelune Resort eliminates unnecessary noise, focusing on visual serenity, intuitive navigation, and rich narrative descriptions. Whether guests are seeking a peaceful retreat, fine dining, or holistic wellness, the application serves as a complete digital gateway to the ultimate resort experience.
+
+By combining aesthetic sophistication with modern functional design, Avelune Resort sets a new standard for luxury hospitality platforms.
 </p>
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<h2>🚀 Features</h2>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<h3>🛋️ Resort Facilities & Amenities</h3>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- ☕ <b>Lune Café:</b> A serene sanctuary blending harmoniously with nature to offer specialty coffee, handcrafted pastries, and relaxing views.<br>
+- 🌸 <b>Lunelle Spa:</b> A holistic wellness sanctuary inspired by lunar cycles, offering organic botanical treatments and restorative rituals.<br>
+- 🏊‍♂️ <b>Serene Pool:</b> An idyllic aquatic oasis framed by stunning views, featuring plush sunbeds and poolside refreshment service.<br>
+- 🍸 <b>Solara Lounge:</b> An elegant open-air venue designed for golden-hour views, artisanal cocktails, and fine wines under the stars.<br>
+- 🍽️ <b>Serene Dining:</b> An exquisite culinary destination celebrating local and international gastronomy with fresh seasonal ingredients.<br>
+- 🏋️‍♂️ <b>Avelune Fitness:</b> A state-of-the-art wellness facility equipped with modern machinery and inspiring natural views.<br>
 
-## Learning Laravel
+<h3>💻 Platform & UI Features</h3>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- 🎨 Minimalist and uncluttered user interface focused on content elegance.<br>
+- 📱 Responsive design tailored for seamless browsing across mobile and desktop devices.<br>
+- 🛋️ Integrated reservation cards and facility showcase modules.<br>
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+<h2>🛠️ Tech Stack</h2>
 
-## Agentic Development
+<h4>🎨 Design     : Figma</h4>
+<h4>💻 Front-End : HTML5, CSS3, JavaScript</h4>
+<h4>🛢️ Back-End  : PHP</h4>
+<h4>🐬 Database  : MySQL</h4>
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+---
+
+<h2>📌 Installation</h2>
+
+<h3>1. 📥 Clone the Repository</h3>
 
 ```bash
-composer require laravel/boost --dev
-
-php artisan boost:install
-```
-
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+git clone [https://github.com/your-username/avelune-resort.git](https://github.com/your-username/avelune-resort.git)
