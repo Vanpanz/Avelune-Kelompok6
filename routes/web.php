@@ -1,7 +1,8 @@
 <?php
-
-use Illuminate\Support\Facades\Route;
-
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('home');
+})->name('home');
+
+Route::view('/accommodation', 'accomodation')->name('accommodation');
+
+Route::view('/amenities', 'amenties')->name('amenities');
