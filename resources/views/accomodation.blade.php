@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avelune - Accommodation</title>
 
-    @vite(['resources/css/app.css'])
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
@@ -97,7 +97,7 @@
                         <span class="spec-item"><i class="spec-icon spec-wifi"></i> Wi-Fi</span>
                     </div>
 
-                    <a href="#" class="btn-book">BOOK NOW</a>
+                    <a href="{{ route('reservation') }}" class="btn-book">BOOK NOW</a>
                 </div>
             </article>
 
@@ -120,7 +120,7 @@
                         <span class="spec-item"><i class="spec-icon spec-wifi"></i> Wi-Fi</span>
                     </div>
 
-                    <a href="#" class="btn-book">BOOK NOW</a>
+                    <a href="{{ route('reservation') }}" class="btn-book">BOOK NOW</a>
                 </div>
             </article>
 
