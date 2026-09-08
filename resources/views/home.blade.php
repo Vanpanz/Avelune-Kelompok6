@@ -55,17 +55,17 @@
 
             <div class="booking-item">
                 <label>CHECK-IN</label>
-                <div class="booking-value">
+                <div class="booking-value booking-calendar-value">
                     <span>May 24, 2026</span>
-                    <span>▣</span>
+                    <img class="calendar-icon" src="{{ asset('images/akar-icons--calendar.png') }}" alt="Calendar">
                 </div>
             </div>
 
             <div class="booking-item">
                 <label>CHECK-OUT</label>
-                <div class="booking-value">
+                <div class="booking-value booking-calendar-value">
                     <span>May 24, 2026</span>
-                    <span>▣</span>
+                    <img class="calendar-icon" src="{{ asset('images/akar-icons--calendar.png') }}" alt="Calendar">
                 </div>
             </div>
 

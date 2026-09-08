@@ -14,7 +14,6 @@
         <a href="{{ route('home') }}#home">HOME</a>
         <a href="{{ route('accommodation') }}">ACCOMMODATION</a>
         <a href="{{ route('amenities') }}">AMENITIES</a>
-        <a href="{{ route('home') }}#reservation">RESERVATION</a>
         <a href="{{ route('home') }}#about">ABOUT US</a>
     </nav>
 
