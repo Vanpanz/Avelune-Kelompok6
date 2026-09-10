@@ -78,49 +78,49 @@
             </div>
         </section>
 
-        <section class="stats-grid-section">
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 w-full h-full gap-0">
-                <div class="relative group h-full overflow-hidden border-r border-white/10">
-                    <img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                        src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80"
-                        alt="Hospitality">
-                    <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center p-4">
-                        <h3 class="text-white text-3xl font-semibold tracking-wider mb-1">10+ Years</h3>
-                        <p class="text-gray-200 text-xs tracking-widest uppercase">Of Hospitality</p>
-                    </div>
-                </div>
-
-                <div class="relative group h-full overflow-hidden border-r border-white/10">
-                    <img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                        src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80"
-                        alt="Guest Welcomed">
-                    <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center p-4">
-                        <h3 class="text-white text-3xl font-semibold tracking-wider mb-1">5M Guest</h3>
-                        <p class="text-gray-200 text-xs tracking-widest uppercase">Welcomed</p>
-                    </div>
-                </div>
-
-                <div class="relative group h-full overflow-hidden border-r border-white/10">
-                    <img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                        src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80"
-                        alt="Guest Rating">
-                    <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center p-4">
-                        <h3 class="text-white text-3xl font-semibold tracking-wider mb-1">4.98/5</h3>
-                        <p class="text-gray-200 text-xs tracking-widest uppercase">Guest Rating</p>
-                    </div>
-                </div>
-
-                <div class="relative group h-full overflow-hidden">
-                    <img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                        src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=80"
-                        alt="Suites">
-                    <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center p-4">
-                        <h3 class="text-white text-3xl font-semibold tracking-wider mb-1">30+ Suites</h3>
-                        <p class="text-gray-200 text-xs tracking-widest uppercase">For Comfort</p>
-                    </div>
-                </div>
+       <section class="stats-grid-section">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 w-full h-full gap-0">
+        <div class="relative group h-full overflow-hidden">
+            <img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 block"
+                src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80"
+                alt="Hospitality">
+            <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center p-4">
+                <h3 class="text-white text-3xl font-semibold tracking-wider mb-1">10+ Years</h3>
+                <p class="text-gray-200 text-xs tracking-widest uppercase">Of Hospitality</p>
             </div>
-        </section>
+        </div>
+
+        <div class="relative group h-full overflow-hidden">
+            <img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 block"
+                src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80"
+                alt="Guest Welcomed">
+            <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center p-4">
+                <h3 class="text-white text-3xl font-semibold tracking-wider mb-1">5M Guest</h3>
+                <p class="text-gray-200 text-xs tracking-widest uppercase">Welcomed</p>
+            </div>
+        </div>
+
+        <div class="relative group h-full overflow-hidden">
+            <img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 block"
+                src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80"
+                alt="Guest Rating">
+            <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center p-4">
+                <h3 class="text-white text-3xl font-semibold tracking-wider mb-1">4.98/5</h3>
+                <p class="text-gray-200 text-xs tracking-widest uppercase">Guest Rating</p>
+            </div>
+        </div>
+
+        <div class="relative group h-full overflow-hidden">
+            <img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 block"
+                src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=80"
+                alt="Suites">
+            <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center p-4">
+                <h3 class="text-white text-3xl font-semibold tracking-wider mb-1">30+ Suites</h3>
+                <p class="text-gray-200 text-xs tracking-widest uppercase">For Comfort</p>
+            </div>
+        </div>
+    </div>
+</section>
 
         @include('components.footer')
 

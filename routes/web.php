@@ -10,3 +10,5 @@ Route::view('/amenities', 'amenties')->name('amenities');
 Route::view('/about-us', 'about')->name('about-us');
 
 Route::view('/reservation', 'reservation')->name('reservation');
+
+Route::view('/profiles', 'profile')->name('profiles');

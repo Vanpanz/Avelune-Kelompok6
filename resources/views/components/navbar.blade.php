@@ -6,7 +6,7 @@
         </button>
 
         <div id="account-menu" class="account-menu" hidden>
-            <a href="#profile" class="account-menu-item">Profile</a>
+            <a href="{{ route('profiles') }}" class="account-menu-item">Profile</a>
             <button type="button" class="account-menu-item">Log out</button>
         </div>
 
