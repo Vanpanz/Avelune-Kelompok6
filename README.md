@@ -78,7 +78,7 @@ The platform aims to connect users with a calm and comfortable vacation experien
 <h3>💻 Front-End</h3>
 
 - <b>HTML5</b> — Used to structure the web pages and application content.
-- <b>CSS3</b> — Used to style the interface, layout, typography, spacing, and responsive design.
+- <b>Tailwind CSS</b> — Used to style the interface and build responsive layouts efficiently.
 - <b>JavaScript</b> — Used to provide interactive functionality and dynamic behavior on the website.
 
 <h3>⚡ Back-End & Framework</h3>
@@ -89,6 +89,23 @@ The platform aims to connect users with a calm and comfortable vacation experien
 <h3>🛢️ Database</h3>
 
 - <b>MySQL</b> — Used to store and manage application data such as users, rooms, facilities, and reservation information.
+
+---
+
+<h2>👥 Team Members</h2>
+
+- <b>Cherrilyn Angelica Patrizia</b> — UI/UX Design, Front-End Development, & Back-End Design<br>
+- <b>Evan Fernando Fransiskus</b>    — UI/UX Design, Front-End Development<br>
+- <b>Kaneisha Elliora</b>            — UI/UX Design, Front-End Development, & Back-End Design<br>
+- <b>Lionel Cristyan</b>             — UI/UX Design, Back-End Development<br>
+
+---
+
+<h2>📄 License</h2>
+
+This project is licensed under the <b>MIT License</b>.
+
+You are free to use, modify, distribute, and contribute to this project as long as the original license is included in any copies or substantial portions of the software.
 
 ---
 
