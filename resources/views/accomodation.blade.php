@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avelune - Accommodation</title>
+    <title>Avelune - Amenities</title>
 
     @vite(['resources/css/app.css'])
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
+
 
 <body class="accommodation-page">
 
@@ -32,17 +32,17 @@
             <div class="booking-fields-wrapper">
                 <div class="booking-item">
                     <label>Check In</label>
-                    <div class="booking-value">
+                    <div class="booking-value booking-calendar-value">
                         <span>21 Aug 2026</span>
-                        <i class="icon-calendar"></i>
+                        <img class="calendar-icon" src="{{ asset('images/akar-icons--calendar.png') }}" alt="Calendar">
                     </div>
                 </div>
 
                 <div class="booking-item">
                     <label>Check Out</label>
-                    <div class="booking-value">
+                    <div class="booking-value booking-calendar-value">
                         <span>23 Aug 2026</span>
-                        <i class="icon-calendar"></i>
+                        <img class="calendar-icon" src="{{ asset('images/akar-icons--calendar.png') }}" alt="Calendar">
                     </div>
                 </div>
 
