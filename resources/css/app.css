@@ -1222,22 +1222,22 @@ a {
 }
 
 .aboutus-page {
-    font-family: 'Montserrat', sans-serif !important;
-    background-color: #1c382b !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    overflow-x: hidden !important;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1c382b;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 .our-story-section {
-    width: 100% !important;
-    background-color: #1c382b !important;
-    padding-top: 4rem !important;
-    padding-bottom: 4rem !important;
-    margin-bottom: 1rem !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
+    width: 100% ;
+    background-color: #1c382b ;
+    padding-top: 4rem ;
+    padding-bottom: 4rem ;
+    margin-bottom: 1rem ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center;
 }
 
 .our-story-section h2 {
@@ -1276,8 +1276,6 @@ a {
     padding: 0;
     overflow: hidden;
 }
-
-
 
 .sanctuary-section {
     background-color: #f4f2ec;
@@ -1684,4 +1682,321 @@ a {
 
 .btn-details:hover {
     background-color: #98703e;
+}
+
+
+.amenity-detail-wrapper {
+    background-color: #f4f2ec;
+    padding: 2rem 0 4rem 0;
+    width: 100%;
+}
+
+.amenity-container {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.breadcrumb-link {
+    display: inline-block;
+    color: #223830;
+    font-size: 1.15rem;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+}
+
+.breadcrumb-link:hover {
+    color: #b58950;
+}
+
+.amenity-card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    position: relative;
+    padding-top: 2.5rem;
+}
+
+.amenity-card-body {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2.5rem;
+    position: relative;
+    z-index: 2;
+}
+
+@media (min-width: 768px) {
+    .amenity-card-body {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+
+.amenity-image-box {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .amenity-image-box {
+        width: 42%;
+        margin-bottom: -2.5rem; /* Menarik foto turun ke atas bar hijau */
+        flex-shrink: 0;
+    }
+}
+
+.amenity-image {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 0; /* Kotak presisi, bukan lingkaran */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.amenity-content {
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .amenity-content {
+        width: 58%;
+        padding-left: 2.5rem;
+        padding-bottom: 3rem;
+    }
+}
+
+.amenity-title {
+    font-family: 'Playfair Display', serif;
+    color: #b58950; /* Warna Gold */
+    font-size: 2.25rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    letter-spacing: 0.02em;
+}
+
+.amenity-description {
+    color: #223830;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.amenity-card-footer {
+    background-color: #223830; 
+    color: #ffffff;
+    padding: 1.25rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+
+@media (min-width: 768px) {
+    .amenity-card-footer {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .footer-spacer {
+        width: 42%; 
+    }
+
+    .footer-info {
+        width: 58%;
+        padding-left: 2.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.schedule-days {
+    font-size: 1.35rem;
+    font-weight: 700;
+    display: block;
+    line-height: 1.2;
+}
+
+.schedule-hours {
+    font-size: 0.95rem;
+    font-weight: 400;
+    display: block;
+    opacity: 0.9;
+    margin-top: 0.2rem;
+}
+
+.reserved-room-wrapper {
+    background-color: #f4f2ec;
+    padding: 2rem 0 4rem 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.reserved-room-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.reserved-room-breadcrumb {
+    display: inline-block;
+    color: #223830;
+    font-size: 1.15rem;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 1.25rem;
+}
+
+.reserved-room-breadcrumb:hover {
+    color: #b58950;
+}
+
+.reserved-room-card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    overflow: hidden;
+}
+
+.reserved-room-main-layout {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem 2.5rem 0 2.5rem;
+    position: relative;
+    z-index: 2;
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    .reserved-room-main-layout {
+        flex-direction: row;
+        align-items: stretch;
+        padding: 0;
+    }
+}
+
+.reserved-room-image-box {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    .reserved-room-image-box {
+        width: 42%;
+        flex-shrink: 0;
+        margin-bottom: 0;
+    }
+}
+
+.reserved-room-image {
+    width: 100%;
+    height: 100%;
+    min-height: 330px;
+    object-fit: cover;
+    display: block;
+}
+
+.reserved-room-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 2.5rem;
+}
+
+@media (min-width: 768px) {
+    .reserved-room-content {
+        width: 58%;
+        padding: 2.5rem;
+    }
+}
+
+.reserved-room-title {
+    font-family: 'Playfair Display', serif;
+    color: #b58950;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 1.5rem 0;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.reserved-room-group {
+    margin-bottom: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.reserved-room-label {
+    display: block;
+    color: #223830;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+}
+
+.reserved-room-value-box {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    padding: 0.6rem 0.85rem;
+    color: #2f3e35;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border-radius: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    white-space: normal;
+    word-break: break-word;
+}
+
+.reserved-room-card-footer {
+    background-color: #223830;
+    color: #ffffff;
+    padding: 1.25rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    .reserved-room-card-footer {
+        flex-direction: row;
+        align-items: center;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+    }
+
+    .reserved-room-footer-spacer {
+        width: 42%;
+    }
+
+    .reserved-room-footer-info {
+        width: 58%;
+        padding-left: 2.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.reserved-room-total-label {
+    font-size: 1.35rem;
+    font-weight: 700;
+    display: block;
+    line-height: 1.2;
+}
+
+.reserved-room-total-amount {
+    font-size: 0.95rem;
+    font-weight: 500;
+    display: block;
+    opacity: 0.9;
+    margin-top: 0.2rem;
 }

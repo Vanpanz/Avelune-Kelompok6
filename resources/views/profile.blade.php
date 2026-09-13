@@ -22,10 +22,9 @@
             <div class="hero-overlay"></div>
 
             <div class="hero-content">
-                <h1>ABOUT US</h1>
+                <h1>PROFILE</h1>
                 <p class="hero-description">
-                    Avelune is home away from home, <br>where quiet woodland meets modern luxury <br>bringing you
-                    absolute serenity.
+                   Manage your account, reservations, <br>and preferences.
                 </p>
             </div>
         </section>
@@ -88,7 +87,7 @@
                         </div>
 
                         <div class="action-wrapper">
-                            <a href="#" class="btn-details">Details</a>
+                            <a href="{{ url('/profiles/1') }}" class="btn-details">Details</a>
                         </div>
                     </div>
 
@@ -111,7 +110,7 @@
                         </div>
 
                         <div class="action-wrapper">
-                            <a href="#" class="btn-details">Details</a>
+                           <a href="{{ url('/profiles/2') }}" class="btn-details">Details</a>
                         </div>
                     </div>
 
@@ -135,7 +134,7 @@
                         </div>
 
                         <div class="action-wrapper">
-                            <a href="#" class="btn-details">Details</a>
+                            <a href="{{ url('/profiles/3') }}" class="btn-details">Details</a>
                         </div>
                     </div>
 

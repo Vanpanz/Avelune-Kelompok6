@@ -12,3 +12,11 @@ Route::view('/about-us', 'about')->name('about-us');
 Route::view('/reservation', 'reservation')->name('reservation');
 
 Route::view('/profiles', 'profile')->name('profiles');
+
+Route::get('/amenities/{name}', function ($name) {
+    return view('amenities-detail');
+});
+
+Route::get('/profiles/{id}', function ($id) {
+    return view('reservation-detail');
+});
