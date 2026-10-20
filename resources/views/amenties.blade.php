@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avelune - Amenities</title>
 
-    @vite(['resources/css/app.css'])
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
@@ -41,7 +41,7 @@
                 <div class="amenity-content">
                     <h3>Lune Café</h3>
                     <p>A cozy retreat surrounded by nature, perfect for slow mornings, freshly brewed coffee, and light bites.</p>
-                    <a href="#" class="btn-learn-more">
+                    <a href="{{ url('/amenities/lune-cafe') }}" class="btn-learn-more">
                         <span>LEARN MORE</span>
                         <span class="arrow">&rsaquo;</span>
                     </a>
@@ -55,7 +55,7 @@
                 <div class="amenity-content">
                     <h3>Lunelle Spa</h3>
                     <p>A tranquil sanctuary offering restorative treatments designed to help you relax, recharge, and reconnect with yourself.</p>
-                    <a href="#" class="btn-learn-more">
+                    <a href="{{ url('/amenities/lunelle-spa') }}" class="btn-learn-more">
                         <span>LEARN MORE</span>
                         <span class="arrow">&rsaquo;</span>
                     </a>
@@ -69,7 +69,7 @@
                 <div class="amenity-content">
                     <h3>Serene Pool</h3>
                     <p>An infinity pool overlooking breathtaking scenery, creating the perfect setting for peaceful swims and golden-hour moments.</p>
-                    <a href="#" class="btn-learn-more">
+                    <a href="{{ url('/amenities/serene-pool') }}" class="btn-learn-more">
                         <span>LEARN MORE</span>
                         <span class="arrow">&rsaquo;</span>
                     </a>
@@ -83,7 +83,7 @@
                 <div class="amenity-content">
                     <h3>Solara Lounge</h3>
                     <p>A peaceful forest hideaway where guests can unwind, enjoy quiet conversations, and take in the surrounding greenery.</p>
-                    <a href="#" class="btn-learn-more">
+                    <a href="{{ url('/amenities/solara-lounge') }}" class="btn-learn-more">
                         <span>LEARN MORE</span>
                         <span class="arrow">&rsaquo;</span>
                     </a>
@@ -97,7 +97,7 @@
                 <div class="amenity-content">
                     <h3>Serein Dining</h3>
                     <p>An elegant dining destination serving thoughtfully crafted dishes in a warm and serene atmosphere inspired by the beauty of Avelune.</p>
-                    <a href="#" class="btn-learn-more">
+                    <a href="{{ url('/amenities/serein-dining') }}" class="btn-learn-more">
                         <span>LEARN MORE</span>
                         <span class="arrow">&rsaquo;</span>
                     </a>
@@ -111,7 +111,7 @@
                 <div class="amenity-content">
                     <h3>Avelune Fitness</h3>
                     <p>A contemporary wellness space equipped for energizing workouts, mindful movement, and maintaining your daily routine.</p>
-                    <a href="#" class="btn-learn-more">
+                    <a href="{{ url('/amenities/avelune-fitness') }}" class="btn-learn-more">
                         <span>LEARN MORE</span>
                         <span class="arrow">&rsaquo;</span>
                     </a>

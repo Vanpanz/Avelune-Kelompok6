@@ -7,8 +7,16 @@ Route::view('/accommodation', 'accomodation')->name('accommodation');
 
 Route::view('/amenities', 'amenties')->name('amenities');
 
-Route::view('/bookings', 'admin.bookings')->name('bookings');
+Route::view('/about-us', 'about')->name('about-us');
 
-Route::view('/cancel', 'admin.cancel')->name('cancel');
+Route::view('/reservation', 'reservation')->name('reservation');
 
-Route::view('/avaiable', 'admin.avaiable')->name('avaiable');
+Route::view('/profiles', 'profile')->name('profiles');
+
+Route::get('/amenities/{name}', function ($name) {
+    return view('amenities-detail');
+});
+
+Route::get('/profiles/{id}', function ($id) {
+    return view('reservation-detail');
+});
