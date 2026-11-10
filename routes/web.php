@@ -1,11 +1,14 @@
 <?php
-Route::get('/', function () {
-    return view('home');
-})->name('home');
+
+use App\Http\Controllers\RootController;
+
+Route::get('/', [RootController::class, 'index'])->name('home');
+
+Route::get('/login', [RootController::class, 'login'])->name('login');
 
 Route::view('/accommodation', 'accomodation')->name('accommodation');
 
-Route::view('/amenities', 'amenties')->name('amenities');
+Route::view('/amenities', 'amenities')->name('amenities');
 
 Route::view('/about-us', 'about')->name('about-us');
 

@@ -5,7 +5,7 @@ if (menuButton && accountMenu) {
 	const closeAccountMenu = () => {
 		accountMenu.hidden = true;
 		menuButton.setAttribute('aria-expanded', 'false');
-		menuButton.setAttribute('aria-label', 'Open account menu');
+		menuButton.setAttribute('aria-label', 'Open navigation menu');
 	};
 
 	menuButton.addEventListener('click', () => {
@@ -13,7 +13,7 @@ if (menuButton && accountMenu) {
 
 		accountMenu.hidden = !isOpen;
 		menuButton.setAttribute('aria-expanded', String(isOpen));
-		menuButton.setAttribute('aria-label', isOpen ? 'Close account menu' : 'Open account menu');
+		menuButton.setAttribute('aria-label', isOpen ? 'Close navigation menu' : 'Open navigation menu');
 	});
 
 	document.addEventListener('click', (event) => {

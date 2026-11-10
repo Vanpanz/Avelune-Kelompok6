@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -18,27 +18,27 @@
     <link rel="stylesheet" href="{{ asset('css/login.css') }}">
 </head>
 
-<body class="login-page">
+<body class="relative flex min-h-screen w-full items-center justify-center overflow-hidden font-montserrat text-[#294c44]">
 
     <!-- Background -->
-    <div class="login-background"></div>
+    <div class="fixed inset-0 z-[-2] bg-[linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)),url('/images/login-bg.jpg')] bg-cover bg-center"></div>
 
     <!-- Avelune Logo -->
-    <div class="login-logo">
-        <div class="mountain-logo">
-            <span></span>
+    <div class="fixed left-[45px] top-10 z-[5] text-white">
+        <div class="absolute left-[5px] top-[-28px] h-[38px] w-[185px] before:absolute before:left-[5px] before:top-7 before:h-px before:w-[70px] before:origin-left before:rotate-[-27deg] before:bg-white before:content-[''] after:absolute after:left-[65px] after:top-0 after:h-px after:w-[65px] after:origin-left after:rotate-[32deg] after:bg-white after:content-['']">
+            <span class="absolute left-[115px] top-[23px] h-px w-[85px] rotate-[27deg] bg-white"></span>
         </div>
 
-        <h1>AVELUNE</h1>
+        <h1 class="font-playfair text-[40px] font-semibold tracking-[1px]">AVELUNE</h1>
     </div>
 
     <!-- Login Card -->
-    <div class="login-card">
+    <div class="mt-[15px] flex min-h-[875px] w-[665px] flex-col rounded-[32px] bg-white/[0.97] px-[69px] pb-[50px] pt-[35px] shadow-[0_20px_60px_rgba(0,0,0,0.15)]">
 
-        <div class="login-header">
-            <h2>WELCOME BACK</h2>
+        <div class="mb-8 text-center">
+            <h2 class="mb-2 font-montserrat text-[46px] font-normal tracking-[-1.5px] text-[#294c44]">WELCOME BACK</h2>
 
-            <p>
+            <p class="text-[21px] font-normal tracking-[1px] text-[#294c44]">
                 Sign in to continue your Avelune journey
             </p>
         </div>
@@ -47,9 +47,9 @@
             @csrf
 
             <!-- Email -->
-            <div class="form-group">
+            <div class="relative mb-10">
 
-                <label for="email">
+                <label for="email" class="mb-[9px] ml-0.5 block text-[15px] leading-[1.45]">
                     EMAIL ADDRESS
                 </label>
 
@@ -71,9 +71,9 @@
             </div>
 
             <!-- Password -->
-            <div class="form-group password-group">
+            <div class="relative mb-10">
 
-                <label for="password">
+                <label for="password" class="mb-[9px] ml-0.5 block text-[15px] leading-[1.45]">
                     PASSWORD
                 </label>
 
@@ -132,9 +132,11 @@
         <div class="register-text">
             Don't ave an account?
 
-            <a href="{{ route('register') }}">
-                Sign up
-            </a>
+            @if (Route::has('register'))
+                <a href="{{ route('register') }}">
+                    Sign up
+                </a>
+            @endif
         </div>
 
     </div>

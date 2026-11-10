@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <he>
     <meta charset="UTF-8">
@@ -14,29 +14,29 @@
         rel="stylesheet">
     </head>
 
-    <body class="aboutus-page text-white">
+    <body class="m-0 overflow-x-hidden bg-[#1c382b] font-montserrat text-white">
 
         @include('components.navbar')
 
-        <section class="hero hero-amenities">
-            <div class="hero-overlay"></div>
+        <section class="relative min-h-[430px] bg-[url('https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=2000&q=85')] bg-cover bg-center max-[900px]:min-h-[430px]">
+            <div class="absolute inset-0 bg-black/35"></div>
 
-            <div class="hero-content">
-                <h1>ABOUT US</h1>
-                <p class="hero-description">
+            <div class="absolute left-[5%] top-40 z-[2] text-white">
+                <h1 class="my-[5px] font-playfair text-[80px] font-medium leading-[1.1] tracking-[6px] max-[900px]:text-[50px] max-[600px]:text-[40px]">ABOUT US</h1>
+                <p>
                     Avelune is home away from home, <br>where quiet woodland meets modern luxury <br>bringing you
                     absolute serenity.
                 </p>
             </div>
         </section>
 
-        <section class="our-story-section px-6 md:px-12">
+        <section class="mb-4 flex w-full items-center justify-center bg-[#1c382b] px-6 py-16 md:px-12">
             <div class="max-w-6xl mx-auto w-full">
 
                 <div class="text-center mb-8">
-                    <h2 class="text-2xl md:text-3xl font-medium tracking-[0.2em] uppercase m-0 p-0 leading-none">OUR
+                    <h2 class="m-0 p-0 text-2xl font-semibold uppercase leading-none tracking-[0.25em] text-white md:text-3xl">OUR
                         STORY</h2>
-                    <p class="subtitle text-[11px] text-gray-300 tracking-wider mt-1 mb-0 p-0 leading-normal">The
+                    <p class="mt-0 mb-[30px] p-0 text-[11px] leading-[1.2] tracking-wider text-[#e5e7eb]/90">The
                         Journey Starts From Here.</p>
                 </div>
                 <div
@@ -78,8 +78,8 @@
             </div>
         </section>
 
-       <section class="stats-grid-section">
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 w-full h-full gap-0">
+       <section class="m-0 flex h-[500px] w-full gap-0 p-0">
+    <div class="m-0 grid h-full w-1/2 flex-1 grid-cols-1 gap-0 overflow-hidden p-0 sm:grid-cols-2 md:grid-cols-4">
         <div class="relative group h-full overflow-hidden">
             <img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 block"
                 src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80"
