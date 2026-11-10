@@ -4,22 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Admin POV - List Booking</title>
-<!-- Tailwind CSS CDN -->
-<script src="https://cdn.tailwindcss.com"></script>
+@vite(['resources/css/admin.css'])
 <!-- Font Awesome Icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<!-- Google Font: Inter -->
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<style>
-    body {
-      font-family: 'Inter', sans-serif;
-    }
-</style>
 </head>
-<body class="bg-[#F3F4F6] min-h-screen text-gray-800 antialiased pb-12">
+<body class="min-h-screen bg-[#F3F4F6] font-sans text-gray-800 antialiased">
  
-  <!-- TOP HEADER / NAVBAR -->
-
+  @include('components.navbaradmin')
  
   <!-- MAIN CONTAINER -->
 <main class="max-w-[1400px] mx-auto px-8 pt-8">

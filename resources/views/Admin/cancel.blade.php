@@ -5,43 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin POV - List Booking</title>
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    @vite(['resources/css/admin.css'])
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Google Font: Inter -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-    </style>
 </head>
 
-<body class="bg-[#F3F4F6] min-h-screen text-gray-800 antialiased pb-12">
+<body class="min-h-screen bg-[#F3F4F6] font-sans text-gray-800 antialiased">
 
-    <!-- TOP HEADER / NAVBAR -->
-    <header class="bg-[#2B433E] text-white px-10 py-4 flex items-center justify-between shadow-sm sticky top-0 z-50">
-        <div class="flex items-center gap-10">
-            <!-- Profile Avatar -->
-            <div
-                class="w-10 h-10 rounded-full bg-gray-200 border-2 border-white/20 flex items-center justify-center text-gray-600 font-semibold cursor-pointer hover:opacity-90 transition">
-                <i class="fa-solid fa-user text-sm text-gray-500"></i>
-            </div>
-            <!-- Navigation Items -->
-            <nav class="flex items-center gap-8 text-sm font-medium tracking-wide">
-                <a href="#" class="text-gray-300 hover:text-white transition-colors pb-1.5">Bookings</a>
-                <a href="#" class="text-gray-300 hover:text-white transition-colors pb-1.5">Available Room</a>
-                <a href="#" class="text-white border-b-2 border-white pb-1.5 font-semibold">Cancelled Room</a>
-                <a href="#" class="text-gray-300 hover:text-white transition-colors pb-1.5">Booking History</a>
-            </nav>
-        </div>
-
-        <!-- Brand Logo -->
-        <div class="flex items-center gap-2">
-            <span class="text-xl font-bold tracking-[0.2em] uppercase text-white font-serif">AVELUNE</span>
-        </div>
-    </header>
+    @include('components.navbaradmin')
 
     <!-- MAIN CONTAINER -->
     <main class="max-w-[1400px] mx-auto px-8 pt-8">

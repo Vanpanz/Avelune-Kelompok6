@@ -56,12 +56,12 @@
 
                     <div class="reserved-room-group">
                         <label class="reserved-room-label">Status:</label>
-                        <div class="reserved-room-value-box">Payed CASH no Utang, ORKAY BOS</div>
+                        <div class="reserved-room-value-box">Paid</div>
                     </div>
 
                     <div class="reserved-room-group">
                         <label class="reserved-room-label">Note:</label>
-                        <div class="reserved-room-value-box">saya mau 10, mksh.</div>
+                        <div class="reserved-room-value-box">Saya mau 10 air mineral, makasih.</div>
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@
                 <div class="reserved-room-footer-spacer"></div>
                 <div class="reserved-room-footer-info">
                     <span class="reserved-room-total-label">Total:</span>
-                    <span class="reserved-room-total-amount">50.000 robux pending 3 hari</span>
+                    <span class="reserved-room-total-amount">3.500.000</span>
                 </div>
             </div>
 

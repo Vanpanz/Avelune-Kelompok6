@@ -1,0 +1,4 @@
+@import 'tailwindcss';
+
+@source '../views/Admin/**/*.blade.php';
+@source '../views/components/navbaradmin.blade.php';

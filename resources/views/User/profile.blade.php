@@ -49,7 +49,7 @@
 
                             <div class="info-item">
                                 <span class="info-label">COUNTRY</span>
-                                <p class="info-value">China or Cinta</p>
+                                <p class="info-value">China</p>
                             </div>
 
                             <div class="info-item">
@@ -59,7 +59,7 @@
 
                             <div class="info-item">
                                 <span class="info-label">EMAIL</span>
-                                <p class="info-value">epepprohengker145@gmail.com</p>
+                                <p class="info-value">zhengyuan145@gmail.com</p>
                             </div>
                         </div>
                     </div>
@@ -79,9 +79,9 @@
                                 <h3 class="room-name">EVERMIST SUITE</h3>
                                 <div class="reservation-meta">
                                     <p><strong>Date:</strong> 26/09/2026 - 30/09/2026</p>
-                                    <p><strong>Status:</strong> Payed CASH no Utang, ORKAY BOS</p>
-                                    <p><strong>Note:</strong> saya mau 10, mksh.</p>
-                                    <p><strong>TOTAL:</strong> 50.000 robux pending 3 hari</p>
+                                    <p><strong>Status:</strong>Paid</p>
+                                    <p><strong>Note:</strong> Saya mau 10 air mineral, makasih.</p>
+                                    <p><strong>TOTAL:</strong> Rp 3.500.000 </p>
                                 </div>
                             </div>
                         </div>
@@ -102,9 +102,9 @@
                                 <h3 class="room-name">WILLOWMERE SUITE</h3>
                                 <div class="reservation-meta">
                                     <p><strong>Date:</strong> 20/11/2028 - 31/11/2028</p>
-                                    <p><strong>Status:</strong> Pending, tunggu ada pacar</p>
-                                    <p><strong>Note:</strong> buat apa kasur dua kalo sayanya sendirian.</p>
-                                    <p><strong>TOTAL:</strong> 100.000 diamond epep</p>
+                                    <p><strong>Status:</strong> Pending</p>
+                                    <p><strong>Note:</strong> Water heaternya rusak, tolong perbaiki.</p>
+                                    <p><strong>TOTAL:</strong> Rp 2.500.000 </p>
                                 </div>
                             </div>
                         </div>
@@ -125,10 +125,9 @@
                                 <h3 class="room-name">MISTWOOD SUITE</h3>
                                 <div class="reservation-meta">
                                     <p><strong>Date:</strong> 29/02/2026 - 31/02/2026</p>
-                                    <p><strong>Status:</strong> Udh nginep bro</p>
-                                    <p><strong>Note:</strong> mantap, alamnya ngalam banget, sesuai nama bngt, mistwood.
-                                    </p>
-                                    <p><strong>TOTAL:</strong> 500 robux soalnya tinggal di luar kamarnya</p>
+                                    <p><strong>Status:</strong> Paid</p>
+                                    <p><strong>Note:</strong> mantap, alamnya ngalam banget, sesuai nama bngt, mistwood.</p>
+                                    <p><strong>TOTAL:</strong> Rp 1.800.000</p>
                                 </div>
                             </div>
                         </div>
