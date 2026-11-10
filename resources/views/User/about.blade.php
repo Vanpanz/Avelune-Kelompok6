@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="[scroll-behavior:smooth]">
 
 <he>
     <meta charset="UTF-8">
@@ -14,29 +14,29 @@
         rel="stylesheet">
     </head>
 
-    <body class="aboutus-page text-white">
+    <body class="text-white [background-color:#1c382b] [color:#294c44] [font-family:'Montserrat',_sans-serif] [margin-bottom:0] [margin-left:0] [margin-right:0] [margin-top:0] [overflow-x:hidden] [padding-bottom:0] [padding-left:0] [padding-right:0] [padding-top:0]">
 
         @include('components.navbar')
 
-        <section class="hero hero-amenities">
-            <div class="hero-overlay"></div>
+        <section class='[background-image:url("https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=2000&q=85")] [background-position:center] [background-size:cover] [min-height:430px] [position:relative] max-[900px]:[min-height:430px]'>
+            <div class="[background-color:rgba(0,_0,_0,_.35)] [inset:0] [position:absolute]"></div>
 
-            <div class="hero-content">
-                <h1>ABOUT US</h1>
-                <p class="hero-description">
+            <div class="[color:white] [left:5%] [position:absolute] [top:160px] [z-index:2] max-[600px]:[left:7%]">
+                <h1 class='[font-family:"Playfair_Display",_serif] [font-size:80px] [font-weight:500] [letter-spacing:6px] [line-height:1.1] [margin-bottom:5px] [margin-left:0] [margin-right:0] [margin-top:5px] max-[600px]:[font-size:40px] max-[900px]:[font-size:50px]'>ABOUT US</h1>
+                <p>
                     Avelune is home away from home, <br>where quiet woodland meets modern luxury <br>bringing you
                     absolute serenity.
                 </p>
             </div>
         </section>
 
-        <section class="our-story-section px-6 md:px-12">
+        <section class="px-6 md:px-12 [align-items:center] [background-color:#1c382b] [display:flex] [justify-content:center] [margin-bottom:1rem] [padding-bottom:4rem] [padding-top:4rem] [width:100%]">
             <div class="max-w-6xl mx-auto w-full">
 
                 <div class="text-center mb-8">
-                    <h2 class="text-2xl md:text-3xl font-medium tracking-[0.2em] uppercase m-0 p-0 leading-none">OUR
+                    <h2 class="text-2xl md:text-3xl font-medium tracking-[0.2em] uppercase m-0 p-0 leading-none [color:#ffffff] [font-weight:600] [letter-spacing:0.25em] [line-height:1] [margin-bottom:4px] [margin-top:0] [opacity:1] [padding-bottom:0] [padding-left:0] [padding-right:0] [padding-top:0]">OUR
                         STORY</h2>
-                    <p class="subtitle text-[11px] text-gray-300 tracking-wider mt-1 mb-0 p-0 leading-normal">The
+                    <p class="text-[11px] text-gray-300 tracking-wider mt-1 mb-0 p-0 leading-normal [color:#e5e7eb] [line-height:1.2] [margin-bottom:30px] [margin-top:0] [opacity:0.9] [padding-bottom:0] [padding-left:0] [padding-right:0] [padding-top:0]">The
                         Journey Starts From Here.</p>
                 </div>
                 <div
@@ -78,8 +78,8 @@
             </div>
         </section>
 
-       <section class="stats-grid-section">
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 w-full h-full gap-0">
+       <section class="[display:flex] [gap:0] [height:500px] [margin-bottom:0] [margin-left:0] [margin-right:0] [margin-top:0] [padding-bottom:0] [padding-left:0] [padding-right:0] [padding-top:0] [width:100%]">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 w-full h-full gap-0 [flex-basis:0%] [flex-grow:1] [flex-shrink:1] [margin-bottom:0] [margin-left:0] [margin-right:0] [margin-top:0] [overflow:hidden] [padding-bottom:0] [padding-left:0] [padding-right:0] [padding-top:0] [width:50%]">
         <div class="relative group h-full overflow-hidden">
             <img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 block"
                 src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80"

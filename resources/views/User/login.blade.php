@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="[scroll-behavior:smooth]">
 
 <head>
     <meta charset="UTF-8">
@@ -15,30 +15,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="{{ asset('css/login.css') }}">
 </head>
 
-<body class="login-page">
+<body class="[align-items:center] [background-color:#f5f3ed] [color:#294c44] [display:flex] [font-family:'Montserrat',_sans-serif] [justify-content:center] [min-height:100vh] [overflow:hidden] [position:relative] [width:100%]">
 
     <!-- Background -->
-    <div class="login-background"></div>
+    <div class="[background-image:linear-gradient(_rgba(0,_0,_0,_0.25),_rgba(0,_0,_0,_0.25)_),_url('/images/login-bg.jpg')] [background-position:center] [background-size:cover] [inset:0] [position:fixed] [z-index:-2]"></div>
 
     <!-- Avelune Logo -->
-    <div class="login-logo">
-        <div class="mountain-logo">
-            <span></span>
+    <div class="[color:white] [left:45px] [position:fixed] [top:40px] [z-index:5]">
+        <div class="[height:38px] [left:5px] [position:absolute] [top:-28px] [width:185px]"><div class='[background-color:white] [content:""] [height:1px] [left:5px] [position:absolute] [top:28px] [transform-origin:left_center] [transform:rotate(-27deg)] [width:70px]'></div><div class='[background-color:white] [content:""] [height:1px] [left:65px] [position:absolute] [top:0] [transform-origin:left_center] [transform:rotate(32deg)] [width:65px]'></div><span class="[background-color:white] [height:1px] [left:115px] [position:absolute] [top:23px] [transform:rotate(27deg)] [width:85px]"></span>
         </div>
 
-        <h1>AVELUNE</h1>
+        <h1 class="[font-family:'Playfair_Display',_serif] [font-size:40px] [font-weight:600] [letter-spacing:1px]">AVELUNE</h1>
     </div>
 
     <!-- Login Card -->
-    <div class="login-card">
+    <div class="[background-color:rgba(255,_255,_255,_0.97)] [border-bottom-left-radius:32px] [border-bottom-right-radius:32px] [border-top-left-radius:32px] [border-top-right-radius:32px] [box-shadow:0_20px_60px_rgba(0,_0,_0,_0.15)] [display:flex] [flex-direction:column] [margin-top:15px] [min-height:875px] [padding-bottom:50px] [padding-left:69px] [padding-right:69px] [padding-top:35px] [width:665px]">
 
-        <div class="login-header">
-            <h2>WELCOME BACK</h2>
+        <div class="[margin-bottom:32px] [text-align:center]">
+            <h2 class="[color:#294c44] [font-family:'Montserrat',_sans-serif] [font-size:46px] [font-weight:400] [letter-spacing:-1.5px] [margin-bottom:8px]">WELCOME BACK</h2>
 
-            <p>
+            <p class="[color:#294c44] [font-size:21px] [font-weight:400] [letter-spacing:1px]">
                 Sign in to continue your Avelune journey
             </p>
         </div>
@@ -47,9 +45,9 @@
             @csrf
 
             <!-- Email -->
-            <div class="form-group">
+            <div class="[margin-bottom:1rem] [position:relative]">
 
-                <label for="email">
+                <label for="email" class="[display:block] [font-size:15px] [line-height:1.45] [margin-bottom:9px] [margin-left:2px]">
                     EMAIL ADDRESS
                 </label>
 
@@ -71,9 +69,9 @@
             </div>
 
             <!-- Password -->
-            <div class="form-group password-group">
+            <div class="password-group [margin-bottom:1rem] [position:relative]">
 
-                <label for="password">
+                <label for="password" class="[display:block] [font-size:15px] [line-height:1.45] [margin-bottom:9px] [margin-left:2px]">
                     PASSWORD
                 </label>
 
@@ -85,7 +83,7 @@
                     autocomplete="current-password"
                 >
 
-                <a href="#" class="forgot-password">
+                <a href="#" class="forgot-password [color:inherit] [text-decoration:none]">
                     FORGET PASSWORD?
                 </a>
 
@@ -132,7 +130,7 @@
         <div class="register-text">
             Don't ave an account?
 
-            <a href="{{ route('register') }}">
+            <a href="{{ route('register') }}" class="[color:inherit] [text-decoration:none]">
                 Sign up
             </a>
         </div>
