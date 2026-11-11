@@ -13,12 +13,12 @@ class UserController extends Controller
 
     public function accommodation(): View
     {
-        return view('User.accomodation');
+        return view('User.accommodation');
     }
 
     public function amenities(): View
     {
-        return view('User.amenties');
+        return view('User.amenities');
     }
 
     public function about(): View
@@ -36,7 +36,7 @@ class UserController extends Controller
         return view('User.profile');
     }
 
-    public function amenityDetail(string $name): View
+    public function amenitiesDetail(string $name): View
     {
         return view('User.amenities-detail', ['name' => $name]);
     }
