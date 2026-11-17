@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin POV - List Booking</title>
+    <title>Admin POV - Cancelled Room</title>
     @vite(['resources/css/admin.css'])
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -19,8 +19,8 @@
         <!-- PAGE TITLE & HEADER ACTION -->
         <div class="flex justify-between items-center mb-8">
             <div>
-                <h1 class="text-2xl font-bold text-gray-900 tracking-tight">List Booking</h1>
-                <p class="text-xs text-gray-500 mt-1 font-normal">Manage all hotel reservations seamlessly</p>
+                <h1 class="text-2xl font-bold text-gray-900 tracking-tight">Cancelled Room</h1>
+                <p class="text-xs text-gray-500 mt-1 font-normal">Manage all cancelled hotel reservations seamlessly</p>
             </div>
             <button
                 class="bg-[#2B433E] hover:bg-[#213531] text-white text-xs font-semibold px-5 py-2.5 rounded-md flex items-center gap-2 transition-all shadow-sm active:scale-95">
@@ -103,8 +103,6 @@
                                 <div class="flex items-center justify-center gap-3">
                                     <button class="p-1 text-gray-400 hover:text-blue-600 transition"
                                         title="View Detail"><i class="fa-regular fa-eye text-sm"></i></button>
-                                    <button class="p-1 text-gray-400 hover:text-amber-600 transition" title="Edit"><i
-                                            class="fa-regular fa-pen-to-square text-sm"></i></button>
                                     <button class="p-1 text-gray-400 hover:text-rose-600 transition" title="Delete"><i
                                             class="fa-regular fa-trash-can text-sm"></i></button>
                                 </div>
@@ -132,8 +130,6 @@
                                 <div class="flex items-center justify-center gap-3">
                                     <button class="p-1 text-gray-400 hover:text-blue-600 transition"
                                         title="View Detail"><i class="fa-regular fa-eye text-sm"></i></button>
-                                    <button class="p-1 text-gray-400 hover:text-amber-600 transition" title="Edit"><i
-                                            class="fa-regular fa-pen-to-square text-sm"></i></button>
                                     <button class="p-1 text-gray-400 hover:text-rose-600 transition" title="Delete"><i
                                             class="fa-regular fa-trash-can text-sm"></i></button>
                                 </div>
@@ -161,7 +157,6 @@
 <td class="py-4 px-6 text-center">
 <div class="flex items-center justify-center gap-3">
 <button class="p-1 text-gray-400 hover:text-blue-600 transition" title="View Detail"><i class="fa-regular fa-eye text-sm"></i></button>
-<button class="p-1 text-gray-400 hover:text-amber-600 transition" title="Edit"><i class="fa-regular fa-pen-to-square text-sm"></i></button>
 <button class="p-1 text-gray-400 hover:text-rose-600 transition" title="Delete"><i class="fa-regular fa-trash-can text-sm"></i></button>
 </div>
 </td>

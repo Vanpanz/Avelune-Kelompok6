@@ -91,7 +91,7 @@
 <td class="py-4 px-4 text-center font-medium text-gray-800">101</td>
 <td class="py-4 px-4 text-gray-500">01 Aug 2026</td>
 <td class="py-4 px-4 text-gray-500">03 Aug 2026</td>
-<td class="py-4 px-4 text-gray-700">2 Adults</td>
+<td class="py-4 px-4 text-gray-700" style="text-align: center;">2</td>
 <td class="py-4 px-4 font-medium text-gray-800">12.345.678</td>
 <td class="py-4 px-4">
 <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-[10px] font-semibold bg-emerald-100 text-emerald-700">
@@ -101,7 +101,6 @@
 <td class="py-4 px-6 text-center">
 <div class="flex items-center justify-center gap-3">
 <button class="p-1 text-gray-400 hover:text-blue-600 transition" title="View Detail"><i class="fa-regular fa-eye text-sm"></i></button>
-<button class="p-1 text-gray-400 hover:text-amber-600 transition" title="Edit"><i class="fa-regular fa-pen-to-square text-sm"></i></button>
 <button class="p-1 text-gray-400 hover:text-rose-600 transition" title="Delete"><i class="fa-regular fa-trash-can text-sm"></i></button>
 </div>
 </td>
@@ -116,7 +115,7 @@
 <td class="py-4 px-4 text-center font-medium text-gray-800">102</td>
 <td class="py-4 px-4 text-gray-500">02 Aug 2026</td>
 <td class="py-4 px-4 text-gray-500">05 Aug 2026</td>
-<td class="py-4 px-4 text-gray-700">2 Adults</td>
+<td class="py-4 px-4 text-gray-700">2</td>
 <td class="py-4 px-4 font-medium text-gray-800">12.345.678</td>
 <td class="py-4 px-4">
 <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-[10px] font-semibold bg-emerald-100 text-emerald-700">
@@ -126,7 +125,6 @@
 <td class="py-4 px-6 text-center">
 <div class="flex items-center justify-center gap-3">
 <button class="p-1 text-gray-400 hover:text-blue-600 transition" title="View Detail"><i class="fa-regular fa-eye text-sm"></i></button>
-<button class="p-1 text-gray-400 hover:text-amber-600 transition" title="Edit"><i class="fa-regular fa-pen-to-square text-sm"></i></button>
 <button class="p-1 text-gray-400 hover:text-rose-600 transition" title="Delete"><i class="fa-regular fa-trash-can text-sm"></i></button>
 </div>
 </td>
@@ -143,7 +141,7 @@
 <td class="py-4 px-4 text-center font-medium text-gray-800">102</td>
 <td class="py-4 px-4 text-gray-500">02 Aug 2026</td>
 <td class="py-4 px-4 text-gray-500">05 Aug 2026</td>
-<td class="py-4 px-4 text-gray-700">2 Adults</td>
+<td class="py-4 px-4 text-gray-700">2</td>
 <td class="py-4 px-4 font-medium text-gray-800">12.345.678</td>
 <td class="py-4 px-4">
 <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-[10px] font-semibold bg-emerald-100 text-emerald-700">
@@ -153,7 +151,6 @@
 <td class="py-4 px-6 text-center">
 <div class="flex items-center justify-center gap-3">
 <button class="p-1 text-gray-400 hover:text-blue-600 transition" title="View Detail"><i class="fa-regular fa-eye text-sm"></i></button>
-<button class="p-1 text-gray-400 hover:text-amber-600 transition" title="Edit"><i class="fa-regular fa-pen-to-square text-sm"></i></button>
 <button class="p-1 text-gray-400 hover:text-rose-600 transition" title="Delete"><i class="fa-regular fa-trash-can text-sm"></i></button>
 </div>
 </td>
