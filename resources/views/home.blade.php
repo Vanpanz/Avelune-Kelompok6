@@ -15,7 +15,7 @@
 <body class="min-h-screen bg-[#f5f3ed] font-montserrat text-[#294b45]">
     @include('components.navbar')
 
-    <section id="home" class="relative flex min-h-[280px] items-center overflow-visible px-6 pb-16 pt-16 text-white sm:px-10 md:min-h-[300px] lg:min-h-[440px] lg:px-[8%]">
+    <section id="home" class="relative flex min-h-[280px] flex-col items-stretch overflow-visible px-6 pb-16 pt-16 text-white sm:px-10 md:min-h-[300px] md:flex-row md:items-center lg:min-h-[440px] lg:px-[8%]">
         <img class="absolute inset-0 h-full w-full object-cover object-center" src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=2000&q=85" alt="">
         <div class="absolute inset-0 bg-black/40"></div>
 
@@ -31,7 +31,7 @@
             </a>
         </div>
 
-        <div id="reservation" class="absolute bottom-[-8px] left-1/2 z-[3] grid w-[90%] max-w-6xl -translate-x-1/2 grid-cols-1 items-center bg-[#254d47] text-white shadow-lg sm:w-[74%] sm:grid-cols-2 md:grid-cols-[1.2fr_1fr_1fr_auto]">
+        <div id="reservation" class="relative z-[3] mx-auto mt-6 grid w-[90%] max-w-6xl grid-cols-1 items-center bg-[#254d47] text-white shadow-lg sm:grid-cols-2 md:absolute md:bottom-[-8px] md:left-1/2 md:mt-0 md:w-[74%] md:-translate-x-1/2 md:grid-cols-[1.2fr_1fr_1fr_auto]">
             <div class="flex flex-col px-3 py-2 text-[9px] sm:px-4">
                 <small class="leading-relaxed">struggling to find an<br>available room?</small>
                 <strong class="mt-1 font-semibold">FIND IT HERE!</strong>

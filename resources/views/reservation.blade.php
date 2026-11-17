@@ -81,36 +81,62 @@
         </div>
 
         <div class="bg-white shadow-sm">
-            <form class="bg-[#223830] p-6 text-white">
-            <div class="mb-4 grid grid-cols-1 gap-4 md:grid-cols-2">
+            @if (session('success'))
+                <p class="bg-green-100 px-6 py-3 text-sm text-green-800">{{ session('success') }}</p>
+            @endif
+
+            @if ($errors->any())
+                <div class="bg-red-100 px-6 py-3 text-sm text-red-800">
+                    <p class="font-semibold">Please correct the following:</p>
+                    <ul class="list-inside list-disc">
+                        @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif
+
+            <form method="POST" action="{{ route('reservation.store') }}" class="bg-[#223830] p-6 text-white">
+                @csrf
+                <div class="mb-4 grid grid-cols-1 gap-4 md:grid-cols-2">
                     <div>
-                        <label class="mb-1 block text-xs font-semibold tracking-wide">Name:</label>
-                        <input type="text" class="w-full border-0 bg-white px-3 py-2 text-xs text-gray-800 outline-none">
+                        <label for="guest_name" class="mb-1 block text-xs font-semibold tracking-wide">Name:</label>
+                        <input id="guest_name" name="guest_name" value="{{ old('guest_name') }}" required maxlength="255" class="w-full border-0 bg-white px-3 py-2 text-xs text-gray-800 outline-none">
                     </div>
                     <div>
-                        <label class="mb-1 block text-xs font-semibold tracking-wide">E-mail/Phone Number:</label>
-                        <input type="text" class="w-full border-0 bg-white px-3 py-2 text-xs text-gray-800 outline-none">
+                        <label for="contact" class="mb-1 block text-xs font-semibold tracking-wide">E-mail/Phone Number:</label>
+                        <input id="contact" name="contact" value="{{ old('contact') }}" required maxlength="255" class="w-full border-0 bg-white px-3 py-2 text-xs text-gray-800 outline-none">
+                    </div>
+                </div>
+
+                <div class="mb-4 grid grid-cols-1 gap-4 md:grid-cols-3">
+                    <div>
+                        <label for="check_in" class="mb-1 block text-xs font-semibold tracking-wide">Check-in:</label>
+                        <input id="check_in" name="check_in" type="date" value="{{ old('check_in') }}" min="{{ now()->toDateString() }}" required class="w-full border-0 bg-white px-3 py-2 text-xs text-gray-800 outline-none">
+                    </div>
+                    <div>
+                        <label for="check_out" class="mb-1 block text-xs font-semibold tracking-wide">Check-out:</label>
+                        <input id="check_out" name="check_out" type="date" value="{{ old('check_out') }}" required class="w-full border-0 bg-white px-3 py-2 text-xs text-gray-800 outline-none">
+                    </div>
+                    <div>
+                        <label for="guest_count" class="mb-1 block text-xs font-semibold tracking-wide">Guests:</label>
+                        <input id="guest_count" name="guest_count" type="number" min="1" max="2" value="{{ old('guest_count', 2) }}" required class="w-full border-0 bg-white px-3 py-2 text-xs text-gray-800 outline-none">
                     </div>
                 </div>
 
                 <div class="mb-4">
-                <label class="mb-1 block text-xs font-semibold tracking-wide">Date:</label>
-                <input type="text" class="w-full border-0 bg-white px-3 py-2 text-xs text-gray-800 outline-none">
+                    <label for="notes" class="mb-1 block text-xs font-semibold tracking-wide">Note:</label>
+                    <textarea id="notes" name="notes" maxlength="2000" rows="3" class="w-full border-0 bg-white px-3 py-2 text-xs text-gray-800 outline-none">{{ old('notes') }}</textarea>
                 </div>
 
-                <div class="mb-4">
-                    <label class="mb-1 block text-xs font-semibold tracking-wide">Note:</label>
-                    <input type="text" class="w-full border-0 bg-white px-3 py-2 text-xs text-gray-800 outline-none">
+                <div class="flex items-center justify-between bg-white px-6 py-4">
+                    <div>
+                        <span class="text-xl font-bold text-[#b58950]">$280</span>
+                        <span class="text-xs text-gray-500">/night</span>
+                    </div>
+                    <button type="submit" class="cursor-pointer border-0 bg-[#223830] px-6 py-2.5 text-xs font-semibold uppercase tracking-wider text-white transition-colors duration-200 hover:bg-[#1a2c26]">BOOK NOW</button>
                 </div>
             </form>
-
-            <div class="flex items-center justify-between bg-white px-6 py-4">
-                <div>
-                    <span class="text-xl font-bold text-[#b58950]">$280</span>
-                    <span class="text-xs text-gray-500">/night</span>
-                </div>
-                <button type="submit" class="cursor-pointer border-0 bg-[#223830] px-6 py-2.5 text-xs font-semibold uppercase tracking-wider text-white transition-colors duration-200 hover:bg-[#1a2c26]">BOOK NOW</button>
-            </div>
         </div>
     </div>
 </section>
