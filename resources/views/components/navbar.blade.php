@@ -19,16 +19,16 @@
         </a>
     </div>
 
-    <nav class="flex items-center justify-center gap-[30px] whitespace-nowrap text-xs font-medium max-[900px]:gap-[14px] max-[900px]:text-[9px] max-[600px]:hidden">
-        <a href="{{ route('home') }}#home" class="transition-colors duration-300 hover:text-[#c69b61]">HOME</a>
-        <a href="{{ route('accommodation') }}" class="transition-colors duration-300 hover:text-[#c69b61]">ACCOMMODATION</a>
-        <a href="{{ route('amenities') }}" class="transition-colors duration-300 hover:text-[#c69b61]">AMENITIES</a>
-        <a href="{{ route('about-us') }}" class="transition-colors duration-300 hover:text-[#c69b61]">ABOUT US</a>
+    <nav class="[align-items:center] [display:flex] [font-size:12px] [font-weight:500] [gap:30px] [justify-content:center] [white-space:nowrap] max-[900px]:[display:none]">
+        <a href="{{ route('home') }}#home" class="[color:inherit] [text-decoration:none] [transition:.3s] hover:[color:#c69b61]">HOME</a>
+        <a href="{{ route('accommodation') }}" class="[color:inherit] [text-decoration:none] [transition:.3s] hover:[color:#c69b61]">ACCOMMODATION</a>
+        <a href="{{ route('amenities') }}" class="[color:inherit] [text-decoration:none] [transition:.3s] hover:[color:#c69b61]">AMENITIES</a>
+        <a href="{{ route('about-us') }}" class="[color:inherit] [text-decoration:none] [transition:.3s] hover:[color:#c69b61]">ABOUT US</a>
     </nav>
 
-    <div class="flex items-center justify-end">
-        <a href="{{ route('home') }}#home">
-            <span class="font-playfair text-[21px] tracking-[2px] text-white">AVELUNE</span>
+    <div class="[align-items:center] [display:flex] [justify-content:flex-end]">
+        <a href="{{ route('home') }}#home" class="[color:inherit] [text-decoration:none]">
+            <img src="{{ asset('images/logo.png') }}" alt="Avelune" class="[height:50px] [object-fit:contain] [width:auto]">
         </a>
     </div>
 

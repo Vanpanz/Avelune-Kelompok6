@@ -17,7 +17,9 @@ Route::get('/auth/google/callback', [GoogleAuthController::class, 'handleGoogleC
     ->middleware('throttle:10,1')
     ->name('google.callback');
 
-Route::view('/accommodation', 'accomodation')->name('accommodation');
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\UserController;
+use Illuminate\Support\Facades\Route;
 
 Route::view('/amenities', 'amenities')->name('amenities');
 
@@ -33,6 +35,11 @@ Route::get('/amenities/{name}', function ($name) {
     return view('amenities-detail');
 });
 
-Route::get('/profiles/{id}', function ($id) {
-    return view('reservation-detail');
-});
+Route::prefix('admin')
+    ->name('admin.')
+    ->controller(AdminController::class)
+    ->group(function () {
+        Route::get('/bookings', 'bookings')->name('bookings');
+        Route::get('/available-room', 'availableRooms')->name('available-room');
+        Route::get('/cancelled-room', 'cancelledRooms')->name('cancelled-room');
+    });

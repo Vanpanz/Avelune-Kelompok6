@@ -12,8 +12,7 @@
 </head>
 <body class="min-h-screen bg-[#F3F4F6] pb-12 font-inter text-gray-800 antialiased">
  
-  <!-- TOP HEADER / NAVBAR -->
-
+  @include('components.navbaradmin')
  
   <!-- MAIN CONTAINER -->
 <main class="max-w-[1400px] mx-auto px-8 pt-8">

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en" class="[scroll-behavior:smooth]">
 
 <head>
     <meta charset="UTF-8">
@@ -17,28 +17,26 @@
 
 </head>
 
-<body class="relative flex min-h-screen w-full items-center justify-center overflow-x-hidden bg-[#1c382b] px-4 py-8 font-montserrat text-[#294c44]">
+<body class="[align-items:center] [background-color:#f5f3ed] [color:#294c44] [display:flex] [font-family:'Montserrat',_sans-serif] [justify-content:center] [min-height:100vh] [overflow:hidden] [position:relative] [width:100%]">
 
     <!-- Background -->
-    <img class="fixed inset-0 -z-10 h-full w-full object-cover" src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=2000&q=85" alt="">
-    <div class="fixed inset-0 -z-10 bg-black/35"></div>
+    <div class="[background-image:linear-gradient(_rgba(0,_0,_0,_0.25),_rgba(0,_0,_0,_0.25)_),_url('/images/login-bg.jpg')] [background-position:center] [background-size:cover] [inset:0] [position:fixed] [z-index:-2]"></div>
 
     <!-- Avelune Logo -->
-    <a href="{{ route('home') }}" aria-label="Avelune home" class="fixed left-6 top-8 z-10 text-white transition-opacity hover:opacity-80 sm:left-10 sm:top-8">
-        <div class="relative mb-1 ml-1 h-7 w-36 before:absolute before:left-0 before:top-5 before:h-px before:w-12 before:origin-left before:rotate-[-35deg] before:bg-white before:content-[''] after:absolute after:left-10 after:top-0 after:h-px after:w-12 after:origin-left after:rotate-[35deg] after:bg-white after:content-['']">
-            <span class="absolute left-[5.1rem] top-5 h-px w-12 rotate-[28deg] bg-white"></span>
+    <div class="[color:white] [left:45px] [position:fixed] [top:40px] [z-index:5]">
+        <div class="[height:38px] [left:5px] [position:absolute] [top:-28px] [width:185px]"><div class='[background-color:white] [content:""] [height:1px] [left:5px] [position:absolute] [top:28px] [transform-origin:left_center] [transform:rotate(-27deg)] [width:70px]'></div><div class='[background-color:white] [content:""] [height:1px] [left:65px] [position:absolute] [top:0] [transform-origin:left_center] [transform:rotate(32deg)] [width:65px]'></div><span class="[background-color:white] [height:1px] [left:115px] [position:absolute] [top:23px] [transform:rotate(27deg)] [width:85px]"></span>
         </div>
 
-        <h1 class="font-playfair text-3xl font-semibold tracking-wide sm:text-[34px]">AVELUNE</h1>
-    </a>
+        <h1 class="[font-family:'Playfair_Display',_serif] [font-size:40px] [font-weight:600] [letter-spacing:1px]">AVELUNE</h1>
+    </div>
 
     <!-- Login Card -->
-    <main class="my-16 flex min-h-[660px] w-full max-w-[500px] flex-col rounded-[24px] bg-white/[0.97] px-7 py-8 shadow-[0_20px_60px_rgba(0,0,0,0.2)] sm:px-[50px] sm:py-6">
+    <div class="[background-color:rgba(255,_255,_255,_0.97)] [border-bottom-left-radius:32px] [border-bottom-right-radius:32px] [border-top-left-radius:32px] [border-top-right-radius:32px] [box-shadow:0_20px_60px_rgba(0,_0,_0,_0.15)] [display:flex] [flex-direction:column] [margin-top:15px] [min-height:875px] [padding-bottom:50px] [padding-left:69px] [padding-right:69px] [padding-top:35px] [width:665px]">
 
-        <div class="mb-7 text-center">
-            <h2 class="mb-1 font-montserrat text-3xl font-normal tracking-[-1px] text-[#294c44] sm:text-[36px]">WELCOME BACK</h2>
+        <div class="[margin-bottom:32px] [text-align:center]">
+            <h2 class="[color:#294c44] [font-family:'Montserrat',_sans-serif] [font-size:46px] [font-weight:400] [letter-spacing:-1.5px] [margin-bottom:8px]">WELCOME BACK</h2>
 
-            <p class="text-sm font-normal tracking-[0.5px] text-[#294c44] sm:text-base">
+            <p class="[color:#294c44] [font-size:21px] [font-weight:400] [letter-spacing:1px]">
                 Sign in to continue your Avelune journey
             </p>
         </div>
@@ -47,9 +45,9 @@
             @csrf
 
             <!-- Email -->
-            <div class="relative mb-7">
+            <div class="[margin-bottom:1rem] [position:relative]">
 
-                <label for="email" class="mb-2 ml-0.5 block text-xs font-semibold leading-[1.45]">
+                <label for="email" class="[display:block] [font-size:15px] [line-height:1.45] [margin-bottom:9px] [margin-left:2px]">
                     EMAIL ADDRESS
                 </label>
 
@@ -72,9 +70,9 @@
             </div>
 
             <!-- Password -->
-            <div class="relative mb-8">
+            <div class="password-group [margin-bottom:1rem] [position:relative]">
 
-                <label for="password" class="mb-2 ml-0.5 block text-xs font-semibold leading-[1.45]">
+                <label for="password" class="[display:block] [font-size:15px] [line-height:1.45] [margin-bottom:9px] [margin-left:2px]">
                     PASSWORD
                 </label>
 
@@ -87,7 +85,7 @@
                     class="h-11 w-full rounded-md border border-[#555] bg-white px-3 text-sm text-[#294c44] outline-none transition focus:border-[#294c44] focus:ring-2 focus:ring-[#294c44]/20"
                 >
 
-                <a href="#" class="mt-1 block text-right text-xs font-semibold text-[#b58950] hover:underline">
+                <a href="#" class="forgot-password [color:inherit] [text-decoration:none]">
                     FORGET PASSWORD?
                 </a>
 
@@ -133,11 +131,9 @@
         <div class="mt-8 text-center text-xs text-[#294c44]">
             Don't have an account?
 
-            @if (Route::has('register'))
-                <a href="{{ route('register') }}" class="ml-1 font-semibold text-[#b58950] hover:underline">
-                    Sign up
-                </a>
-            @endif
+            <a href="{{ route('register') }}" class="[color:inherit] [text-decoration:none]">
+                Sign up
+            </a>
         </div>
 
     </main>
