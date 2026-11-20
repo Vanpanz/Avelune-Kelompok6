@@ -20,6 +20,7 @@ Route::prefix('admin')
     ->name('admin.')
     ->controller(AdminController::class)
     ->group(function () {
+        Route::get('/profile', 'profile')->name('profile');
         Route::get('/bookings', 'bookings')->name('bookings');
         Route::get('/available-room', 'availableRooms')->name('available-room');
         Route::get('/cancelled-room', 'cancelledRooms')->name('cancelled-room');

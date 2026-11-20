@@ -82,96 +82,40 @@
                         </tr>
                     </thead>
                     <tbody class="divide-y divide-gray-100 text-xs text-gray-600 font-normal">
-                        <!-- Row 1 -->
-                        <tr class="hover:bg-gray-50/80 transition-colors">
-                            <td class="py-4 px-6 font-medium text-gray-500">1</td>
-                            <td class="py-4 px-4 font-semibold text-gray-900">AVL-260801-001</td>
-                            <td class="py-4 px-4 font-medium text-gray-800">Cuking Cuking</td>
-                            <td class="py-4 px-4 text-gray-500">01 Aug 2026</td>
-                            <td class="py-4 px-4 text-center font-medium text-gray-800">101</td>
-                            <td class="py-4 px-4 text-gray-500">01 Aug 2026</td>
-                            <td class="py-4 px-4 text-gray-500">03 Aug 2026</td>
-                            <td class="py-4 px-4 text-gray-700">2 Adults</td>
-                            <td class="py-4 px-4 font-medium text-gray-800">12.345.678</td>
-                            <td class="py-4 px-4">
-                                <span
-                                    class="inline-flex items-center px-2.5 py-0.5 rounded-full text-[10px] font-semibold bg-rose-100 text-rose-700">
-                                    Cancelled
-                                </span>
-                            </td>
-                            <td class="py-4 px-6 text-center">
-                                <div class="flex items-center justify-center gap-3">
-                                    <button class="p-1 text-gray-400 hover:text-blue-600 transition"
-                                        title="View Detail"><i class="fa-regular fa-eye text-sm"></i></button>
-                                    <button class="p-1 text-gray-400 hover:text-amber-600 transition" title="Edit"><i
-                                            class="fa-regular fa-pen-to-square text-sm"></i></button>
-                                    <button class="p-1 text-gray-400 hover:text-rose-600 transition" title="Delete"><i
-                                            class="fa-regular fa-trash-can text-sm"></i></button>
-                                </div>
-                            </td>
-                        </tr>
-
-                        <!-- Row 2 -->
-                        <tr class="hover:bg-gray-50/80 transition-colors">
-                            <td class="py-4 px-6 font-medium text-gray-500">2</td>
-                            <td class="py-4 px-4 font-semibold text-gray-900">AVL-260801-002</td>
-                            <td class="py-4 px-4 font-medium text-gray-800">Okky Jelly</td>
-                            <td class="py-4 px-4 text-gray-500">02 Aug 2026</td>
-                            <td class="py-4 px-4 text-center font-medium text-gray-800">102</td>
-                            <td class="py-4 px-4 text-gray-500">02 Aug 2026</td>
-                            <td class="py-4 px-4 text-gray-500">05 Aug 2026</td>
-                            <td class="py-4 px-4 text-gray-700">2 Adults</td>
-                            <td class="py-4 px-4 font-medium text-gray-800">12.345.678</td>
-                            <td class="py-4 px-4">
-                                <span
-                                    class="inline-flex items-center px-2.5 py-0.5 rounded-full text-[10px] font-semibold bg-rose-100 text-rose-700">
-                                    Cancelled
-                                </span>
-                            </td>
-                            <td class="py-4 px-6 text-center">
-                                <div class="flex items-center justify-center gap-3">
-                                    <button class="p-1 text-gray-400 hover:text-blue-600 transition"
-                                        title="View Detail"><i class="fa-regular fa-eye text-sm"></i></button>
-                                    <button class="p-1 text-gray-400 hover:text-amber-600 transition" title="Edit"><i
-                                            class="fa-regular fa-pen-to-square text-sm"></i></button>
-                                    <button class="p-1 text-gray-400 hover:text-rose-600 transition" title="Delete"><i
-                                            class="fa-regular fa-trash-can text-sm"></i></button>
-                                </div>
-                            </td>
-                        </tr>
-
-                        <!-- Loop Dummy Data Rows -->
-                        <script>
-                            const rowTemplate = (no) => `
-<tr class="hover:bg-gray-50/80 transition-colors">
-<td class="py-4 px-6 font-medium text-gray-500">${no}</td>
-<td class="py-4 px-4 font-semibold text-gray-900">AVL-260801-002</td>
-<td class="py-4 px-4 font-medium text-gray-800">Okky Jelly</td>
-<td class="py-4 px-4 text-gray-500">02 Aug 2026</td>
-<td class="py-4 px-4 text-center font-medium text-gray-800">102</td>
-<td class="py-4 px-4 text-gray-500">02 Aug 2026</td>
-<td class="py-4 px-4 text-gray-500">05 Aug 2026</td>
-<td class="py-4 px-4 text-gray-700">2 Adults</td>
-<td class="py-4 px-4 font-medium text-gray-800">12.345.678</td>
-<td class="py-4 px-4">
-<span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-[10px] font-semibold bg-rose-100 text-rose-700">
-                      Cancelled
-</span>
-</td>
-<td class="py-4 px-6 text-center">
-<div class="flex items-center justify-center gap-3">
-<button class="p-1 text-gray-400 hover:text-blue-600 transition" title="View Detail"><i class="fa-regular fa-eye text-sm"></i></button>
-<button class="p-1 text-gray-400 hover:text-amber-600 transition" title="Edit"><i class="fa-regular fa-pen-to-square text-sm"></i></button>
-<button class="p-1 text-gray-400 hover:text-rose-600 transition" title="Delete"><i class="fa-regular fa-trash-can text-sm"></i></button>
-</div>
-</td>
-</tr>
-              `;
-                            for (let i = 3; i <= 8; i++) {
-                                document.write(rowTemplate(i));
-                            }
-                        </script>
-
+                        @foreach ([
+                            ['id' => 'AVL-260801-014', 'name' => 'Nadia Putri', 'date' => '01 Aug 2026', 'room' => '204', 'check_in' => '04 Aug 2026', 'check_out' => '06 Aug 2026', 'guests' => '1 Adult', 'total' => '4.250.000'],
+                            ['id' => 'AVL-260802-027', 'name' => 'Rizky Pratama', 'date' => '02 Aug 2026', 'room' => '315', 'check_in' => '07 Aug 2026', 'check_out' => '10 Aug 2026', 'guests' => '2 Adults', 'total' => '8.750.000'],
+                            ['id' => 'AVL-260803-039', 'name' => 'Maya Lestari', 'date' => '03 Aug 2026', 'room' => '108', 'check_in' => '11 Aug 2026', 'check_out' => '13 Aug 2026', 'guests' => '2 Adults, 1 Child', 'total' => '6.300.000'],
+                            ['id' => 'AVL-260804-042', 'name' => 'Bima Saputra', 'date' => '04 Aug 2026', 'room' => '221', 'check_in' => '14 Aug 2026', 'check_out' => '18 Aug 2026', 'guests' => '3 Adults', 'total' => '11.200.000'],
+                            ['id' => 'AVL-260805-056', 'name' => 'Clara Wijaya', 'date' => '05 Aug 2026', 'room' => '407', 'check_in' => '19 Aug 2026', 'check_out' => '21 Aug 2026', 'guests' => '1 Adult, 1 Child', 'total' => '7.450.000'],
+                            ['id' => 'AVL-260806-063', 'name' => 'Fajar Ramadhan', 'date' => '06 Aug 2026', 'room' => '112', 'check_in' => '22 Aug 2026', 'check_out' => '25 Aug 2026', 'guests' => '3 Adults, 1 Child', 'total' => '5.800.000'],
+                            ['id' => 'AVL-260807-071', 'name' => 'Sinta Maharani', 'date' => '07 Aug 2026', 'room' => '306', 'check_in' => '26 Aug 2026', 'check_out' => '29 Aug 2026', 'guests' => '2 Adults, 2 Children', 'total' => '9.600.000'],
+                            ['id' => 'AVL-260808-085', 'name' => 'Dimas Kurniawan', 'date' => '08 Aug 2026', 'room' => '510', 'check_in' => '30 Aug 2026', 'check_out' => '02 Sep 2026', 'guests' => '5 Adults', 'total' => '13.500.000'],
+                        ] as $index => $booking)
+                            <tr class="transition-colors hover:bg-gray-50/80">
+                                <td class="px-6 py-4 font-medium text-gray-500">{{ $index + 1 }}</td>
+                                <td class="px-4 py-4 font-semibold text-gray-900">{{ $booking['id'] }}</td>
+                                <td class="px-4 py-4 font-medium text-gray-800">{{ $booking['name'] }}</td>
+                                <td class="px-4 py-4 text-gray-500">{{ $booking['date'] }}</td>
+                                <td class="px-4 py-4 text-center font-medium text-gray-800">{{ $booking['room'] }}</td>
+                                <td class="px-4 py-4 text-gray-500">{{ $booking['check_in'] }}</td>
+                                <td class="px-4 py-4 text-gray-500">{{ $booking['check_out'] }}</td>
+                                <td class="px-4 py-4 text-gray-700">{{ $booking['guests'] }}</td>
+                                <td class="px-4 py-4 font-medium text-gray-800">{{ $booking['total'] }}</td>
+                                <td class="px-4 py-4">
+                                    <span class="inline-flex items-center rounded-full bg-rose-100 px-2.5 py-0.5 text-[10px] font-semibold text-rose-700">
+                                        Cancelled
+                                    </span>
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <div class="flex items-center justify-center gap-3">
+                                        <button type="button" class="p-1 text-gray-400 transition hover:text-blue-600" title="View Detail"><i class="fa-regular fa-eye text-sm"></i></button>
+                                        <button type="button" class="p-1 text-gray-400 transition hover:text-amber-600" title="Edit"><i class="fa-regular fa-pen-to-square text-sm"></i></button>
+                                        <button type="button" class="p-1 text-gray-400 transition hover:text-rose-600" title="Delete"><i class="fa-regular fa-trash-can text-sm"></i></button>
+                                    </div>
+                                </td>
+                            </tr>
+                        @endforeach
                     </tbody>
                 </table>
             </div>
